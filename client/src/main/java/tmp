@@ -1,0 +1,27 @@
+
+
+
+    //?????????????????????????????????????????????????
+                            // napraviti byte[] od svih ravni pa na serveru odraditi transformaciju u int[]
+                           /* ByteBuffer r_buffer = image.getPlanes()[0].getBuffer();
+                            byte[] r_bytes = new byte[r_buffer.capacity()];
+                            r_buffer.get(r_bytes);
+
+                            ByteBuffer g_buffer = image.getPlanes()[1].getBuffer();
+                            byte[] g_bytes = new byte[g_buffer.capacity()];
+                            g_buffer.get(g_bytes);
+
+                            ByteBuffer b_buffer = image.getPlanes()[2].getBuffer();
+                            byte[] b_bytes = new byte[b_buffer.capacity()];
+                            b_buffer.get(b_bytes);
+
+                            int[] pixels = new int[r_buffer.capacity()];
+
+                            for(int i=0; i<pixels.length; i++)
+                            {
+                                pixels[i] = ((byte) 0xff) << 24 |                 // Alpha
+                                        (r_bytes[i] << 16) & (0xff0000) |      // Red
+                                        (g_bytes[i] << 8) & (0xff00) |       // Green
+                                        (b_bytes[i]) & (0xff);               // Blue
+                            }*/
+                            //?????????????????????????????????????????????????????
