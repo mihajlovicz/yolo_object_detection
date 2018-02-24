@@ -56,7 +56,7 @@ public class GreetingsServer /*extends Thread*/ {
         DataOutputStream DOS = new DataOutputStream(server.getOutputStream());
 
         msg_received = DIS.readUTF();
-        System.out.println(msg_received);//radi
+        System.out.println(msg_received);
 
         BufferedImage image = null;
         byte[] imageByte;
